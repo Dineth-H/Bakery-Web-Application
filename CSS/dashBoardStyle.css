@@ -1,0 +1,99 @@
+@charset "utf-8";
+
+table{
+	background: radial-gradient(to left, rgb(236, 0, 140), rgb(252, 103, 103));
+}
+
+.logo:a{
+	color: #000000;
+}
+.main-section{
+	width:80%;
+	margin:0 auto;
+	text-align: center;
+	padding: 0px 5px;
+    
+}
+.dashbord{
+	width:32%;
+	display: inline-block;
+	background-color:#4A7095;
+	color:#fff;
+	margin-top: 50px; 
+    border: thin 0.5em right: ;ba(144, 144, 144, 0.25);
+    border-radius: 100%;
+}
+.icon-section i{
+	font-size: 30px;
+	padding:10px;
+	border:1px solid #fff;
+	margin-top:-25px;
+	margin-bottom: 10px;
+	background-color:#94D0C4;
+     border: thin 0.5em rgba(144, 144, 144, 0.25);
+    border-radius: 100%;
+}
+.icon-section p{
+	margin:0px;
+	font-size: 18px;
+	padding-bottom: 10px;
+}
+.detail-section{
+	
+	padding: 5px 0px;
+    
+}
+.dashbord .detail-section:hover{
+	cursor: pointer;
+    text-decoration-color: lightcoral;
+    
+}
+.a:hover{text-emphasis-color: hotpink;
+}
+.detail-section a{
+
+	text-decoration: none;
+	  display: block;
+  
+  text-align: center;
+  color:cornsilk;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family:Arial, Helvetica, sans-serif;
+}
+.dashbord .icon-section,.dashbord .icon-section i{
+	background-color: #B99FAF;
+     border: thin 0.5em rgba(144, 144, 144, 0.25);
+    border-radius: 100%;
+}
+.dashbord-green .icon-section,.dashbord-green .icon-section i{
+	background-color: #B99FAF;
+     border: thin 0.5em rgba(144, 144, 144, 0.25);
+    border-radius: 100%;
+}
+
+.dashbord-orange .icon-section,.dashbord-orange .icon-section i{
+	background-color: #B99FAF;
+     border: thin 0.5em rgba(144, 144, 144, 0.25);
+    border-radius: 100%;
+}
+
+.dashbord-blue .icon-section,.dashbord-blue .icon-section i{
+	background-color: #B99FAF;
+     border: thin 0.5em rgba(144, 144, 144, 0.25);
+    border-radius: 100%;
+}
+
+.dashbord-red .icon-section,.dashbord-red .icon-section i{
+	background-color:#B99FAF;
+     border: thin 0.5em rgba(144, 144, 144, 0.25);
+    border-radius: 100%;
+}
+
+.dashbord-skyblue .icon-section,.dashbord-skyblue .icon-section i{
+	background-color:#B99FAF;
+     border: thin 0.5em rgba(144, 144, 144, 0.25);
+    border-radius: 100%;
+}
+	/* CSS Document */
+

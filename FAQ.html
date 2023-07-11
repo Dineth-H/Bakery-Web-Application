@@ -1,0 +1,248 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Frequently Asked Questions</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js" charset="utf-8"></script>
+<link rel="stylesheet" href="css/style.css" />
+  
+<style>
+.body{
+background: #D5D5D5;
+}
+    
+.accordions {
+width: 80%;
+margin: 100px auto;
+}
+
+.accordions h3 {
+text-align: center;
+font-weight: bold;
+font-family: "Roboto", sans-serif;
+}
+
+.accordion-item {
+background: linear-gradient(to right, #03B4DC, #D5A7C6);
+border-radius: 5px;
+color: #ffffff;
+margin-bottom: 20px;
+border: 1px solid #100e34;
+}
+
+.accordion-item .accordion-title {
+cursor: pointer;
+padding: 20px;
+transition: transform 0.4s ease-in-out;
+}
+
+.accordion-item .accordion-title.active-title {
+background: linear-gradient(to right, #A0A9AB, #D5A7C6);
+color: #ffffff;
+}
+
+.accordion-item .accordion-title h3 {
+font-weight: 700;
+margin: 0;
+justify-content: space-between;
+font-weight: bold;
+font-size: 18px;
+display: flex;
+}
+
+.accordion-item .accordion-title i.fa-chevron-down {
+transform: rotate(0);
+transition: 0.4s;
+}
+
+.accordion-item .accordion-title i.fa-chevron-down.chevron-top {
+transform: rotate(-180deg);
+color: #fa5019;
+}
+
+.accordion-item .accordion-content {
+display: none;
+line-height: 1.7;
+color: #100e34;
+padding: 20px;
+background-color: #ffffff;
+border-radius: 0 0 5px 5px;
+}
+
+.accordion-item .accordion-content.active {
+display: block;
+}
+
+.accordion-item .accordion-content p {
+margin: 0;
+font-size: 16px;
+font-family: "Nunito Sans", sans-serif;
+}
+
+.details {
+background: #dce1f2;
+}
+
+.details .detailed_info {
+margin: 50px auto;
+}
+
+.details img {
+margin: 0 auto;
+display: block;
+}
+
+.details h3 {
+font-weight: bold;
+font-size: 20px;
+font-family: "Poppins", sans-serif;
+}
+
+.details p {
+font-size: 16px;
+line-height: 1.5em;
+font-family: "Nunito Sans", sans-serif;
+}
+
+.details ul li {
+font-size: 16px;
+line-height: 1.7em;
+font-family: "Nunito Sans", sans-serif;
+}
+</style>
+</head>
+
+<body>
+    <h4><strong><a href="index.html">⬅️Home</a></strong>	</h4> 
+    <h2 align="center">Frequently Asked Questions</h2>
+    <section id="faq">
+    <div class="container faq">
+
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="accordions">
+
+              <!-- 1st accordion menu -->
+              <div class="accordion-item">
+                <div class="accordion-title" data-tab="item4">
+                  <h3>How far in advance should I order? <i class="fa fa-chevron-down"></i></h3>
+                </div>
+                <div class="accordion-content" id="item4">
+                  <p>
+                    Since a delicious cake need to be baked and delivered fresh, at least a day prior to the event date.
+                  </p>
+                </div>
+              </div>
+
+              <!-- 2nd accordion menu -->
+              <div class="accordion-item">
+                <div class="accordion-title" data-tab="item2">
+                  <h3>Do you deliver? <i class="fa fa-chevron-down"></i></h3>
+                </div>
+                <div class="accordion-content" id="item2">
+                  <p>
+                    With a dedicated personal delivery partner, your purchased product will be on your hands in the most safest and quickest way. still cheaper than common delivery partners.
+                  </p>
+                </div>
+              </div>
+
+              <!-- 3rd accordion menu -->
+              <div class="accordion-item">
+
+  
+                <div class="accordion-title" data-tab="item3">
+                  <h3>How much is delivery?<i class="fa fa-chevron-down"></i></h3>
+                </div>
+                <div class="accordion-content" id="item3">
+                  <p>
+                    Unlike most other providers you don’t have to pay to the distance, our personal delievry care will only cost a fixed amount said in the final bill. no hidden charges will get added.
+                  </p>
+                </div>
+              </div>
+
+              <!-- 4th accordion menu -->
+              <div class="accordion-item">
+                <div class="accordion-title" data-tab="item1">
+                  <h3>What payment methods do you accept? <i class="fa fa-chevron-down"></i></h3>
+                </div>
+                <div class="accordion-content" id="item1">
+                  <p>
+                    We only accept direct bank payments, and only process the order when the receipt is confirmed.
+                  </p>
+                </div>
+              </div>
+
+                <!-- 5th accordion menu -->
+              <div class="accordion-item">
+                <div class="accordion-title" data-tab="item5">
+                  <h3>What ingredients do you use? <i class="fa fa-chevron-down"></i></h3>
+                </div>
+                <div class="accordion-content" id="item5">
+                  <p>
+                    We only use the finest butter and imported flavourings in the most hygenic methods. We assure our secret ingredients are safe and edible. in case of an issue, pls contact our main hotline to sort.
+                  </p>
+                </div>
+              </div>
+                
+                  <!-- 6th accordion menu -->
+              <div class="accordion-item">
+                <div class="accordion-title" data-tab="item6">
+                  <h3>Where are you located? <i class="fa fa-chevron-down"></i></h3>
+                </div>
+                <div class="accordion-content" id="item6">
+                  <p>
+                    We are located in Weera Mw, Battaramulla, Srilanka, The central city to most delivery areas!. Bakeaholics doors are always open to our precious customers.
+                  </p>
+                </div>
+              </div>
+                
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+    <footer id="footer" align="center">
+				<div class="container">
+					<ul class="icons">
+						<li><a href="https://web.facebook.com/BakecraftsBySenu/?_rdc=1&_rdr" class="icon fa-facebook"></a></li>
+						<li><a href="https://instagram.com/_bakeaholics_?igshid=YmMyMTA2M2Y=" class="icon fa-instagram"></a></li>
+					</ul>
+					<ul class="copyright">
+						<li>&copy; D H Pussewala</li>
+						<li>BAKEAHOLICS - Bakecrafts by Senu</li>
+						<li>2022</li>
+					</ul>
+				</div>
+                <p>▫️ <a href="FAQ.html">FAQ</a>  |    <a href="privacyPolicy.html">Privacy Policy </a>  |  <a href="termsAndConditions.html">Terms &amp; Conditions </a>▫</p>
+			</footer>
+    <script>
+    $(document).ready(function () {
+    $(".accordion-title").click(function (e) {
+      var accordionitem = $(this).attr("data-tab");
+      $("#" + accordionitem)
+        .slideToggle()
+        .parent()
+        .siblings()
+        .find(".accordion-content")
+        .slideUp();
+
+      $(this).toggleClass("active-title");
+      $("#" + accordionitem)
+        .parent()
+        .siblings()
+        .find(".accordion-title")
+        .removeClass("active-title");
+
+      $("i.fa-chevron-down", this).toggleClass("chevron-top");
+      $("#" + accordionitem)
+        .parent()
+        .siblings()
+        .find(".accordion-title i.fa-chevron-down")
+        .removeClass("chevron-top");
+    });
+  });
+ </script>
+</body>
+</html>
